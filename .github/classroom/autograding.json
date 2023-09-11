@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "UDP_pinger_server",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest UDP_pinger_server",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "client_UDP",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest client_UDP",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
